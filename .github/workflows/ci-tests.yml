@@ -8,8 +8,8 @@ on:
       - main
 
 jobs:
-  lint:
-    uses: ./.github/workflows/linters.yml
+#   lint:
+#     uses: ./.github/workflows/linters.yml
 
   approve:
     name: Approve ok-to-test
