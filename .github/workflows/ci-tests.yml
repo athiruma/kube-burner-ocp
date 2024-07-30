@@ -2,7 +2,7 @@ name: CI tests
 on:
   workflow_call:
   pull_request_target:
-    types: [opened, edited, synchronize, reopened, labeled]
+    types: [opened, edited, synchronize, reopened]
     branches:
       - master
       - main
